@@ -7,6 +7,16 @@ packages:
   gitUrl: https://github.com/ArtiKhareNew
   gitUsername: ArtiKhareNew
   gitBranch: main
+- name: multiplypublicservice
+  gitServerName: srcCtrl_shared_bitbucket_Arti
+  gitUrl: https://bitbucket.org/testartiibm
+  gitUsername: artikhare
+  gitBranch: master
+services:
+- serviceName: project.serengetigh2010.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: SerengetiGH2010Project
+    version: "1.0"
 configurationVariables:
   jdbcfunc.SAPTxStore.failFastMode: false
   jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
